@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>developer</key>
+	<string>Frank Grie?hammer, Bahman Eslami</string>
+	<key>developerURL</key>
+	<string>http://bahman.design</string>
+	<key>expireDate</key>
+	<string>2022-12-31</string>
+	<key>html</key>
+	<true/>
+	<key>launchAtStartUp</key>
+	<true/>
+	<key>mainScript</key>
+	<string>contextualMenu.py</string>
+	<key>name</key>
+	<string>roboFontContextualMenu</string>
+	<key>requiresVersionMajor</key>
+	<string>3</string>
+	<key>requiresVersionMinor</key>
+	<string>0</string>
+	<key>timeStamp</key>
+	<real>1652801630.184056</real>
+	<key>version</key>
+	<string>0.0.1</string>
+</dict>
+</plist>
