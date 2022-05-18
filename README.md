@@ -1,4 +1,4 @@
-# RoboFont Fontview Menu
+# RoboFont Font View Modular Contextual Menu
 A modular contextual menu for the font overview in RoboFont. This extension reads a folder of scripts
 and creates the menu items based on the scripts and folder structure. By defualt this extension uses 
 the same folder as the `Scripts` menu items (which is the defualt script folder of RoboFont). 
@@ -7,6 +7,8 @@ menu in the font overview.
 
 # Usage
 Right click on any glyph inside the font overview.
+
+![robofont contextual menu](https://github.com/typoman/RoboFont-Font-View-Modular-Contextual-Menu/blob/main/source/resources/roboFontContextualMenu.png?raw=true)
 
 # Changing the script folder
 Choose the menu item `Extensions > Font View Menu > Set Script Folder`.
