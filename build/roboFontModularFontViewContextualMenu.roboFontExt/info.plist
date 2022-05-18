@@ -30,11 +30,9 @@
 		</dict>
 	</array>
 	<key>developer</key>
-	<string>Frank Grieshammer, Bahman Eslami</string>
+	<string>Bahman Eslami</string>
 	<key>developerURL</key>
 	<string>http://bahman.design</string>
-	<key>expireDate</key>
-	<string>2022-12-31</string>
 	<key>html</key>
 	<true/>
 	<key>launchAtStartUp</key>
@@ -48,8 +46,8 @@
 	<key>requiresVersionMinor</key>
 	<string>2</string>
 	<key>timeStamp</key>
-	<real>1652891088.744833</real>
+	<real>1652912237.1916699</real>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 </dict>
 </plist>

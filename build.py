@@ -34,13 +34,13 @@ B = ExtensionBundle()
 B.name = "Font View Menu"
 
 # name of the developer
-B.developer = 'Frank Grieshammer, Bahman Eslami'
+B.developer = 'Bahman Eslami'
 
 # URL of the developer
 B.developerURL = 'http://bahman.design'
 
 # version of the extension
-B.version = '0.0.1'
+B.version = '0.0.2'
 
 # should the extension be launched at start-up?
 B.launchAtStartUp = True
@@ -83,7 +83,7 @@ with open(requirementsPath) as requirements:
     B.requirements = requirements.read()
 
 # expiration date for trial extensions
-B.expireDate = '2022-12-31'
+# B.expireDate = '2022-12-31'
 
 # compile and save the extension bundle
 print('building extension...', end=' ')
