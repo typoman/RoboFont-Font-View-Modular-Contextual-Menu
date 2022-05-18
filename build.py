@@ -21,7 +21,7 @@ licensePath = os.path.join(basePath, 'license.txt')
 requirementsPath = os.path.join(basePath, 'requirements.txt')
 
 # name of the compiled extension file
-extensionFile = 'roboFontContextualMenu.roboFontExt'
+extensionFile = 'roboFontModularFontViewContextualMenu.roboFontExt'
 
 # path of the compiled extension
 buildPath = os.path.join(basePath, 'build')
@@ -31,10 +31,10 @@ extensionPath = os.path.join(buildPath, extensionFile)
 B = ExtensionBundle()
 
 # name of the extension
-B.name = "roboFontContextualMenu"
+B.name = "Font View Menu"
 
 # name of the developer
-B.developer = 'Frank Grie?hammer, Bahman Eslami'
+B.developer = 'Frank Grieshammer, Bahman Eslami'
 
 # URL of the developer
 B.developerURL = 'http://bahman.design'
@@ -52,17 +52,27 @@ B.mainScript = 'contextualMenu.py'
 B.html = True
 
 # minimum RoboFont version required for this extension
-B.requiresVersionMajor = '3'
-B.requiresVersionMinor = '0'
+B.requiresVersionMajor = '4'
+B.requiresVersionMinor = '2'
 
 # scripts which should appear in Extensions menu
-# B.addToMenu = [
-#     {
-#         'path':          'doSomething.py',
-#         'preferredName': 'do something',
-#         'shortKey':      None,
-#     },
-# ]
+B.addToMenu = [
+    {
+        'path':          'revealScriptFolder.py',
+        'preferredName': 'Reveal Script Folder',
+        'shortKey':      '',
+    },
+    {
+        'path':          'setScriptFolder.py',
+        'preferredName': 'Set Script Folder',
+        'shortKey':      '',
+    },
+    {
+        'path':          'contextualMenu.py',
+        'preferredName': 'Refresh Menu Items',
+        'shortKey':      '',
+    }
+]
 
 # license for the extension
 with open(licensePath) as license:

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>addToMenu</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>revealScriptFolder.py</string>
+			<key>preferredName</key>
+			<string>Reveal Script Folder</string>
+			<key>shortKey</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>setScriptFolder.py</string>
+			<key>preferredName</key>
+			<string>Set Script Folder</string>
+			<key>shortKey</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>contextualMenu.py</string>
+			<key>preferredName</key>
+			<string>Refresh Menu Items</string>
+			<key>shortKey</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>developer</key>
+	<string>Frank Grieshammer, Bahman Eslami</string>
+	<key>developerURL</key>
+	<string>http://bahman.design</string>
+	<key>expireDate</key>
+	<string>2022-12-31</string>
+	<key>html</key>
+	<true/>
+	<key>launchAtStartUp</key>
+	<true/>
+	<key>mainScript</key>
+	<string>contextualMenu.py</string>
+	<key>name</key>
+	<string>Font View Menu</string>
+	<key>requiresVersionMajor</key>
+	<string>4</string>
+	<key>requiresVersionMinor</key>
+	<string>2</string>
+	<key>timeStamp</key>
+	<real>1652891088.744833</real>
+	<key>version</key>
+	<string>0.0.1</string>
+</dict>
+</plist>
