@@ -21,5 +21,5 @@ def getRelatedCompositesOfSelectedGlyphs():
             dependent_glyphs.extend(components_used.get(dep_gname))
     return dependent_glyphs
 
-gl = getRelatedComposites()
+gl = getRelatedCompositesOfSelectedGlyphs()
 limitFontViewToGlyphList(gl)
