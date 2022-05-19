@@ -82,6 +82,13 @@ with open(licensePath) as license:
 with open(requirementsPath) as requirements:
     B.requirements = requirements.read()
 
+# copy readme contents to the extension docs
+readmeText = ''
+with open("README.md", "r", encoding="utf-8") as f:
+    readmeText = f.read()
+with open("source/documentation/index.md", "w", encoding="utf-8") as f:
+    f.write(readmeText)
+
 # expiration date for trial extensions
 # B.expireDate = '2022-12-31'
 
