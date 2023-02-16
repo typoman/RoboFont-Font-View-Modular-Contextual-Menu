@@ -45,6 +45,8 @@ def convertFolderStructureToMenuItems(path):
         titleToPaths[readableTitle] = f
         menus = readableTitle.split(" > ")
         addToMenuMap(menuMap, menus)
+    if not menuMap:
+        print(f"No python scripts were found at {path}")
     return titleToPaths, menuMap
 
 class ModularFontOverviewContextualMenu(Subscriber):
