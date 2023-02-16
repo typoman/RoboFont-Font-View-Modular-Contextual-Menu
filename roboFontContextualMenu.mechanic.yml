@@ -1,0 +1,10 @@
+extensionName: Font View Modular Contextual Menu (GitHub)
+repository: https://github.com/typoman/RoboFont-Font-View-Modular-Contextual-Menu
+extensionPath: build/roboFontModularFontViewContextualMenu.roboFontExt
+description: An extension to add a contextual menu to font view based on a script folder structure
+developer: Bahman Eslami
+developerURL: https://bahman.design
+tags: [ productiviy, contextual menu, font view]
+icon: https://raw.githubusercontent.com/typoman/RoboFont-Font-View-Modular-Contextual-Menu/master/roboFontContextualMenuIcon.png
+infoPath: https://raw.githubusercontent.com/typoman/RoboFont-Font-View-Modular-Contextual-Menu/master/build/roboFontModularFontViewContextualMenu.roboFontExt/info.plist
+dateAdded: 2023-02-16 10:10:10
