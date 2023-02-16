@@ -12,8 +12,8 @@ Right click on any glyph inside the font overview.
 
 # Changing the script folder
 Choose the menu item `Extensions > Font View Menu > Set Script Folder`.
-There is a sample script folder which you can download from the repo folder [sampleScripts](https://github.com/typoman/RoboFont-Font-View-Modular-Contextual-Menu/tree/main/sampleScripts). It includes some useful scripts
-for performing actions on the glyphs.
+There is a sample script folder which you can download from the repo folder [Font View Scripts](https://github.com/typoman/RoboFont-Font-View-Modular-Contextual-Menu/tree/main/Font%20View%20Scripts). It includes some useful scripts
+for performing actions on the glyphs. Some of the scripts inside this folder require [Font Gadgets](https://github.com/typoman/RoboFontGadgets) extension to be installed to work.
 
 # Credits
 Written by Bahman Eslami based on a script wirriten by Frank Grießhammer
