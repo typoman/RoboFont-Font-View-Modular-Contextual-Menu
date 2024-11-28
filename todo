@@ -1,0 +1,9 @@
+Example scripts
+- Add expand to left/right group members
+- Add del glyph from layer:
+font = CurrentFont()
+del font.getLayer("background")["a"]
+
+
+
+

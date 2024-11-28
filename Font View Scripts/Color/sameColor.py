@@ -1,8 +1,6 @@
 from selection import *
-import fontgadgets.extensions.robofont.UI
 from mojo.UI import CurrentSelectedGlyphNames
 import mojo
-
 
 f = CurrentFont()
 gl = CurrentSelectedGlyphNames()
