@@ -1,4 +1,4 @@
-from selection import *
+from mojo.UI import limitFontViewToGlyphSet
 
 def getBaseGlyphs(font, glyphList):
     result = set()
@@ -13,4 +13,4 @@ def getBaseGlyphs(font, glyphList):
 if __name__ == '__main__':
     f = CurrentFont()
     gl = getBaseGlyphs(f, f.selectedGlyphNames)
-    limitFontViewToGlyphList(gl)
+    limitFontViewToGlyphSet(gl)

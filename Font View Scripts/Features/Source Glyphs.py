@@ -1,4 +1,4 @@
-from selection import *
+from mojo.UI import limitFontViewToGlyphSet
 import fontgadgets.extensions.robofont.UI
 from mojo.UI import CurrentSelectedGlyphNames
 f = CurrentFont()
@@ -18,4 +18,4 @@ def getSourceGlyphsForGlyphList(font, glyphNameList):
 gl2 = getSourceGlyphsForGlyphList(f, gl)
 gl2.update(gl)
 
-limitFontViewToGlyphList(gl2)
+limitFontViewToGlyphSet(gl2)

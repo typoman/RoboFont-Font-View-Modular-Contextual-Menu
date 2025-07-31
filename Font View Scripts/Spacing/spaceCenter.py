@@ -1,5 +1,5 @@
 from mojo.UI import CurrentSpaceCenter
-from selection import *
+from mojo.UI import limitFontViewToGlyphSet
 """
 Filter the glyph set in the view to the glyphs inside the space center.
 """
@@ -22,6 +22,6 @@ def limitVeiwToSpaceCenter(includingComposites=True):
             if not g.contours and geComps(g) - finalList == set():
                 finalList.add(g.name)
 
-    limitFontViewToGlyphList(finalList)
+    limitFontViewToGlyphSet(finalList)
 
 limitVeiwToSpaceCenter(1)

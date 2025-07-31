@@ -1,4 +1,4 @@
-from selection import *
+from mojo.UI import limitFontViewToGlyphSet
 import fontgadgets.extensions.features
 
 f = CurrentFont()
@@ -18,4 +18,4 @@ def findUnusedGlyphs(f):
             result.append(g.name)
     return result
 
-limitFontViewToGlyphList(findUnusedGlyphs(f))
+limitFontViewToGlyphSet(findUnusedGlyphs(f))

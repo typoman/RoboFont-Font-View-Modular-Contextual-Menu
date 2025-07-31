@@ -1,4 +1,4 @@
-from selection import *
+from mojo.UI import limitFontViewToGlyphSet
 
 def getRelatedCompositesOfSelectedGlyphs():
     font = CurrentFont()
@@ -22,4 +22,4 @@ def getRelatedCompositesOfSelectedGlyphs():
     return dependent_glyphs
 
 gl = getRelatedCompositesOfSelectedGlyphs()
-limitFontViewToGlyphList(gl)
+limitFontViewToGlyphSet(gl)

@@ -1,4 +1,4 @@
-from selection import *
+from mojo.UI import limitFontViewToGlyphSet
 
 
 def findSameScriptAsCurrentGlyph(f):
@@ -12,4 +12,4 @@ def findSameScriptAsCurrentGlyph(f):
 
 
 f = CurrentFont()
-limitFontViewToGlyphList(findSameScriptAsCurrentGlyph(f))
+limitFontViewToGlyphSet(findSameScriptAsCurrentGlyph(f))

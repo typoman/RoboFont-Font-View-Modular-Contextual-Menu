@@ -1,4 +1,4 @@
-from selection import *
+from mojo.UI import limitFontViewToGlyphSet
 from mojo.UI import CurrentSelectedGlyphNames
 import mojo
 
@@ -15,4 +15,4 @@ for gn in gl:
 
 gl = [g.name for g in f if g.markColor in colors]
 gl2 = [g for g in gl if g in visibleGlyphNames]
-limitFontViewToGlyphList(gl2)
+limitFontViewToGlyphSet(gl2)
